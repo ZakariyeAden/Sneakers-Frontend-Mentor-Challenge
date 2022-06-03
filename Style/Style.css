@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+}
+/* ***************** */
+/* Reuseable classes */
+/* ***************** */
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+}
+.avatar-img{
+  width: 50%;
+}
+.img{
+  width: 100%;
+  border-radius: 2rem;
+}
+/* ***************** */
+/*  Navigation bar */
+/* ***************** */
+header{
+  display: flex;
+  justify-content: flex-start;
+  padding: 2rem 0;
+}
+.d-flex {
+  display: flex;
+  margin-left: 4rem;
+}
+.dflex {
+  display: flex;
+  gap: 1rem;
+  margin-left: 43rem;
+  align-items: center;
+}
+.space-btwn {
+  display: flex;
+  gap: 1rem;
+  margin-left: 6rem;
+}
+ul{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+}
+/* ***************** */
+/*  Shopping Section */
+/* ***************** */
+#shopping-section{
+  padding: 5rem 4rem;
+}
